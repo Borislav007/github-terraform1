@@ -31,7 +31,11 @@ variable "sa_backend_accesskey_name" {
 variable "sc_backend" {
   type = string
   description = "Name of the SA container"
+  default = "sacontainer"
 }
+
+
+
 
 
 
