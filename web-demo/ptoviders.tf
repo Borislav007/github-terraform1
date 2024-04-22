@@ -7,10 +7,10 @@ terraform {
   }
   
    backend "azurerm" {
-    resource_group_name  = "rg-backend01-tfstate"  // Oppdater til riktig navn
-    storage_account_name = "sabetfs01iovrkgm6f2"   // Oppdater til riktig navn
-    container_name       = "sacontainer"            // Sjekk at dette er riktig
-    key                  = "terraform.tfstate"      // Vanligvis uendret
+    resource_group_name  = "rg-backend01-tfstate"  
+    storage_account_name = "sabetfs01iovrkgm6f2"   
+    container_name       = "sacontainer"            
+    key                  = "web-demo.terraform.tfstate"
   }
 }
 
